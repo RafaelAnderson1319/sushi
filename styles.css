@@ -113,3 +113,10 @@
   .primary-nav a{color:#202020}
   .hero,.hero-inner{min-height:calc(100svh - 74px)}
 }
+.brand{gap:7px;color:#111;letter-spacing:normal}
+.brand-symbol{display:block;position:relative;width:37px;height:19px;overflow:hidden;flex:none}
+.brand-symbol img{display:block;max-width:none;width:120px;height:120px;transform:translate(-42px,-39px)}
+.brand-wordmark{display:flex;flex-direction:column;font:800 20px/.95 "Poppins",sans-serif;letter-spacing:-.055em;text-transform:uppercase}
+.brand-wordmark small{margin-top:4px;color:#df2434;font:700 7px/1.1 "Poppins",sans-serif;letter-spacing:.035em;white-space:nowrap}
+.footer-inner .brand-wordmark{font-size:20px}
+@media(max-width:680px){.brand-symbol{width:30px;height:17px}.brand-symbol img{width:104px;height:104px;transform:translate(-36px,-34px)}.brand-wordmark{font-size:17px}.brand-wordmark small{font-size:6px}}
