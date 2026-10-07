@@ -76,9 +76,9 @@
 @media(prefers-reduced-motion:reduce){.hero-copy{animation:none}}
 .contact-details a{overflow-wrap:anywhere;text-underline-offset:3px}
 .contact-details a:hover,.contact-details a:focus-visible{color:#c91d2c;text-decoration:underline}
-.brand-logo-crop{display:block;width:134px;height:64px;overflow:hidden;background:#fff;border-radius:5px;flex:none}
-.brand-logo-crop img{display:block;width:150px;height:150px;max-width:none;transform:translate(-8px,-46px)}
-@media(max-width:680px){.brand-logo-crop{width:112px;height:54px}.brand-logo-crop img{width:126px;height:126px;transform:translate(-7px,-39px)}}
+.brand-logo-crop{display:block;width:91px;height:52px;overflow:hidden;flex:none}
+.brand-logo-crop img{display:block;width:120px;height:120px;max-width:none;transform:translate(-15px,-36px);mix-blend-mode:multiply}
+@media(max-width:680px){.brand-logo-crop{width:79px;height:44px}.brand-logo-crop img{width:104px;height:104px;transform:translate(-13px,-31px)}}
 
 /* Identidade Kenpai: preto, branco e vermelho da marca. */
 :root{--orange:#e52636;--orange2:#c91d2c}
@@ -91,8 +91,6 @@
 .site-header .header-cta,.hero .button{background:#e52636;box-shadow:0 8px 22px #e5263640}
 .site-header .header-cta:hover,.hero .button:hover{background:#c91d2c;box-shadow:0 11px 26px #e5263655}
 .menu-toggle span{background:#1b1b1b}
-.brand-logo-crop{width:118px;height:78px;background:transparent;border-radius:0;overflow:hidden}
-.brand-logo-crop img{width:190px;height:190px;max-width:none;transform:translate(-39px,-60px)}
 .hero,.hero-inner{min-height:calc(100svh - 86px)}
 .hero-eyebrow,.overline{color:#ff4b59}
 .small-icon,.feature-card svg,.service-strip svg,.catalog-count,.catalog-item-category,.catalog-more{color:#e52636}
@@ -107,16 +105,7 @@
 .footer-inner>a:last-child:hover{color:#e52636}
 @media(max-width:680px){
   .nav-wrap{height:74px}
-  .brand-logo-crop{width:101px;height:66px}
-  .brand-logo-crop img{width:164px;height:164px;transform:translate(-34px,-52px)}
   .primary-nav{top:74px;background:#fff;border-top:1px solid #ececec}
   .primary-nav a{color:#202020}
   .hero,.hero-inner{min-height:calc(100svh - 74px)}
 }
-.brand{gap:7px;color:#111;letter-spacing:normal}
-.brand-symbol{display:block;position:relative;width:37px;height:19px;overflow:hidden;flex:none}
-.brand-symbol img{display:block;max-width:none;width:120px;height:120px;transform:translate(-42px,-39px)}
-.brand-wordmark{display:flex;flex-direction:column;font:800 20px/.95 "Poppins",sans-serif;letter-spacing:-.055em;text-transform:uppercase}
-.brand-wordmark small{margin-top:4px;color:#df2434;font:700 7px/1.1 "Poppins",sans-serif;letter-spacing:.035em;white-space:nowrap}
-.footer-inner .brand-wordmark{font-size:20px}
-@media(max-width:680px){.brand-symbol{width:30px;height:17px}.brand-symbol img{width:104px;height:104px;transform:translate(-36px,-34px)}.brand-wordmark{font-size:17px}.brand-wordmark small{font-size:6px}}
