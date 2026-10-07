@@ -76,11 +76,11 @@
 @media(prefers-reduced-motion:reduce){.hero-copy{animation:none}}
 .contact-details a{overflow-wrap:anywhere;text-underline-offset:3px}
 .contact-details a:hover,.contact-details a:focus-visible{color:#c91d2c;text-decoration:underline}
-.brand-logo-crop{display:block;width:91px;height:52px;overflow:hidden;flex:none}
-.brand-logo-crop img{display:block;width:120px;height:120px;max-width:none;transform:translate(-15px,-36px);mix-blend-mode:multiply}
-@media(max-width:680px){.brand-logo-crop{width:79px;height:44px}.brand-logo-crop img{width:104px;height:104px;transform:translate(-13px,-31px)}}
+.brand-logo-crop{display:block;width:78px;height:78px;overflow:hidden;flex:none}
+.brand-logo-crop img{display:block;width:78px;height:78px;max-width:none}
+@media(max-width:680px){.brand-logo-crop{width:68px;height:68px}.brand-logo-crop img{width:68px;height:68px}}
 
-/* Identidade Kenpai: preto, branco e vermelho da marca. */
+/* Identidade Sakura: preto, branco e vermelho da marca. */
 :root{--orange:#e52636;--orange2:#c91d2c}
 ::selection{background:#e52636;color:#fff}
 :focus-visible{outline-color:#e52636}
